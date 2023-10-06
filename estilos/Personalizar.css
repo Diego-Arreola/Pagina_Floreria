@@ -1,0 +1,32 @@
+input:focus{
+    background-color: aquamarine;
+    outline: none;
+}
+
+.datos{
+    color: green;
+}
+
+textarea:focus{
+    outline: none;
+    background-color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+body{
+    background-color: #04fc7c;
+}
+
+p{
+    color:green
+}

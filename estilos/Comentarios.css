@@ -1,0 +1,39 @@
+input:focus{
+    background-color: aquamarine;
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+    background-color: aquamarine;
+}
+
+.comentarioForm{
+    color:green
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+body{
+    background-color: #04fc7c;
+}
+
+.Comentario{
+    height: 80px;
+    vertical-align:middle;
+    text-align:justify;
+}
+
+p{
+    color: green
+}
+
