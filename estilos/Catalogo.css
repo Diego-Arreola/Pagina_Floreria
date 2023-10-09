@@ -1,0 +1,61 @@
+.banner-top{
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    background-color: white;
+    text-align: left;
+    color: green;
+    vertical-align: bottom;
+}
+
+.catalogo {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.catalogo a:nth-child(2), .catalogo a:nth-child(6), .catalogo a:nth-child(10), .catalogo a:nth-child(14),.catalogo a:nth-child(18),.catalogo a:nth-child(22) {
+    grid-row: span 3;
+}
+
+.catalogo p{
+    color: green;
+    font-weight: bold;
+    text-align: left;
+    width: 50%;
+}
+
+.catalogo a{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.barra a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.barra{
+    display: grid;
+    color: green;
+    place-items: center;
+}
+
+.banner-fondo{
+    background-color: black;
+}
+
+.banner-fondo img{
+    display: block;
+    margin-left: auto;
+}
