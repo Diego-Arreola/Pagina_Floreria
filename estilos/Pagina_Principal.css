@@ -1,0 +1,93 @@
+.menu {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 0fr);
+    justify-items: center;
+}
+
+.menu img:nth-child(10), .menu img:nth-child(12){
+    grid-row: span 3;
+}
+
+.columna{
+    background-color: green;
+    width: 8%;
+    height: 450px;
+    float: left;
+}
+
+#catalogo{
+    width: 95px;
+    height: 39px;
+    background-image: url("/figuras/catalogo.gif");
+}
+
+#catalogo:hover{
+    background-image: url("/figuras/catalogoa.gif");
+}
+
+#compras{
+    width: 95px;
+    height: 40px;
+    background-image: url("/figuras/compras.gif");
+}
+
+#compras:hover{
+    background-image: url("/figuras/comprasa.gif");
+}
+
+
+#personal{
+    width: 95px;
+    height: 43px;
+    background-image: url("/figuras/personal.gif");
+}
+
+#personal:hover{
+    background-image: url("/figuras/personala.gif");
+}
+
+.menu a, .menu img{
+    vertical-align: top;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.menu span{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.menu div{
+    width: 100%;
+    background: green;
+}
+
+.barra a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.barra{
+    display: grid;
+    color: green;
+    place-items: center;
+}
+
+.banner-fondo{
+    background-color: black;
+}
+
+.banner-fondo img{
+    display: block;
+    margin-left: auto;
+}
