@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: repeat(2,0fr);
     background-color: white;
-    text-align: left;
     color: green;
-    vertical-align: bottom;
+    font-size: 150%;
+    white-space: pre;
+    overflow: hidden;
 }
 
 .catalogo {
@@ -15,6 +16,7 @@
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
+    white-space: nowrap;
 }
 
 .catalogo a:nth-child(2), .catalogo a:nth-child(6), .catalogo a:nth-child(10), .catalogo a:nth-child(14),.catalogo a:nth-child(18),.catalogo a:nth-child(22) {
@@ -26,6 +28,14 @@
     font-weight: bold;
     text-align: left;
     width: 50%;
+    font-size: 140%;
+}
+
+.catalogo span{
+    color: green;
+    text-align: left;
+    width: 50%;
+    font-size: 120%;
 }
 
 .catalogo a{

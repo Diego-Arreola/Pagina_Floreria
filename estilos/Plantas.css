@@ -1,0 +1,35 @@
+.banner-top{
+    display: grid;
+    background-color: white;
+}
+
+.barra a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.descripcion p, .descripcion span{
+    color: green;
+    font-size: 140%;
+}
+
+.barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.barra{
+    display: grid;
+    color: green;
+    place-items: center;
+}
+
+.banner-fondo{
+    background-color: black;
+}
+
+.banner-fondo img{
+    display: block;
+    margin-left: auto;
+}
