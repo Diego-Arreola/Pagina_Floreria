@@ -1,0 +1,99 @@
+.banner-top{
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    background-color: white;
+    color: green;
+    font-size: 150%;
+    white-space: pre;
+    overflow: hidden;
+}
+
+p {
+    color: green;
+    font-size: 130%;
+}
+
+.barra a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.barra{
+    display: grid;
+    color: green;
+    place-items: center;
+}
+
+.banner-fondo{
+    background-color: black;
+}
+
+.banner-fondo img{
+    display: block;
+    margin-left: auto;
+}
+
+.print-footer {
+    display: none;
+}
+
+@media print {
+    .banner-top{
+        display: grid;
+        grid-template-columns: repeat(2,0fr);
+        background-color: white;
+        color: green;
+        font-size: 150%;
+        white-space: pre;
+        overflow: hidden;
+    }
+    
+    p {
+        color: green;
+        font-size: 130%;
+    }
+    
+    .barra a{
+        text-decoration: none;
+        color: green;
+        font-weight: bold;
+    }
+    
+    .barra a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    
+    .barra{
+        display: grid;
+        color: green;
+        place-items: center;
+    }
+    
+    .banner-fondo{
+        background-color: black;
+    }
+    
+    .banner-fondo img{
+        display: block;
+        margin-left: auto;
+    }
+    
+    .print-footer {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        border-top: 1px solid #000;
+    }
+}

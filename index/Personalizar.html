@@ -9,37 +9,39 @@
     </style>
 </head>
 <body bgcolor="#04fc7c">
-    <table bgcolor="white" width="100%" cellspacing="0" cellpadding="0">
-        <tr>
-            <td><a href="Pagina_Principal.html"><img src="/figuras\logotipo.gif" width="" alt=""></a></td>
-            <td align="left" valign="bottom"><p><font color="green" size="5">Personalizar</font></p></td>
-            <td><pre>                                                                                                                                </pre></td>
-        </tr>
-    </table>
-    <p>Ingresa tus datos:</p>
-    <form class="datos" action="" method="post">
-    
+    <div class="banner-top">
+        <a href="Pagina_Principal.html"><img src="/figuras\logotipo.gif" width="" alt=""></a>
+        <p>Personalizar</p>
+    </div>
+    <div class="datos">
+        <p>Ingresa tus datos:</p>
+    <form id="datosForma" action="" method="post">
         <label for="">Nombre:</label>
-        <input type="text">
+        <input type="text" placeholder="Juan">
         <br><br>
         <label for="">Apellidos:</label>
-        <input type="text">
+        <input type="text" placeholder="Perez">
         <br><br>
         <label for="">Correo:</label>
-        <input type="text">
+        <input type="text" placeholder="juanperez@gmail.com">
         <br><br>
         <label for="">Direccion:</label>
-        <input type="text">
+        <input type="text" placeholder="Calle 5 #370 Colonia Centro">
         <br><br>
-        <input type="submit" value="Guardar Datos">
     </form>
-
-    <p align="center"><<a href="Catalogo.html"> Catalogo</a> | <a href="Compras.html">Compras</a> | <a href="Personal.html">Personal</a> | <a href="Ofertas.html">Ofertas</a> | <a href="Personalizar.html">Personalizar</a> | <a href="Comentarios.html">Comentarios</a>></p>    
-    <table width="100%" bgcolor="black">
-        <tr>
-            <td><img src="/figuras\barra.gif" alt="" align="right"></td>
-            
-        </tr>
-    </table>
+        <input type="submit" value="Guardar Datos">
+    </div>
+    <br>
+    <br>
+    <br>
+   <div class="barra"> <span> < <a href="Catalogo.html"> Catalogo</a> | <a href="Compras.html">Compras</a> | <a href="Personal.html">Personal</a> | <a href="Ofertas.html">Ofertas</a> | <a href="Personalizar.html">Personalizar</a> | <a href="Comentarios.html">Comentarios </a> > </span></div>    
+    <br>
+    <br>
+    <div class="print-footer">
+        Puede consultar esta página en la url http://tienda.com
+    </div>
+    <br>
+   <div class="banner-fondo"><img src="/figuras\barra.gif" alt=""><div>
+    
 </body>
 </html>
